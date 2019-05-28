@@ -1,14 +1,26 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "tasks_to_store": [
+        {
+            "id": "int",
+            "position": {
+                "barcode": "string",
+                "id": "integer",
+                "position": "integer",
+                "position_height": "string"
+            },
+            "product": {
+                "expiration_date": "datetime",
+                "id": "integer",
+                "name": "string",
+                "path_img": "string",
+                "quantity_unit": "integer",
+                "receive_quantity": "integer",
+                "reference": "string",
+                "storage": "string",
+                "store_product_id": "integer",
+                "unit": "string"
+            },
+            "transfer_id": "int"
+        }
+    ]
 }
